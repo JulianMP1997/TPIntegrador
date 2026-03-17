@@ -1,4 +1,4 @@
-| Campo               | Descripción / Ejemplo                                                                                 |
+| Campo               | Descripción                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | Nombre del Proyecto | Sistema de Búsqueda de Alquiler Permanente                                                            |
 | MVP                 | Permitir a propietarios publicar propiedades y a clientes buscar alquileres según ubicación y precio  |
