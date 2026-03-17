@@ -1,4 +1,4 @@
-| Campo               | Descripción / Ejemplo                                                                                 |
+| Campo               | Descripción                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | Nombre del Proyecto | Sistema de Búsqueda de Alquiler Permanente                                                            |
 | MVP                 | Permitir a propietarios publicar propiedades y a clientes buscar alquileres según ubicación y precio  |
@@ -6,6 +6,7 @@
 | Entidad 2           | Cliente (id, nombre, teléfono, propiedadesId)                                                         |
 | Entidad 3           | Propiedades (id, nombre, descripción, precio, stock, categoriaId)                                     |
 | Relación            | Un propietario tiene muchas propiedades; cada propiedad puede ser alquilada por un solo cliente (1:N) |
+
 | ID | Historia                                                                  |
 | -- | ------------------------------------------------------------------------- |
 | 1  | Como propietario, quiero publicar una propiedad para alquilar rápidamente |
