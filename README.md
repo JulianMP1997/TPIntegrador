@@ -1,3 +1,7 @@
+# Sistema de Búsqueda de Alquiler Permanente - API REST (MVP)
+
+Proyecto para permitir a propietarios publicar propiedades en alquiler permanente y a clientes buscarlas por ubicación precio y otros filtros Ubicación principal de uso Crespo Entre Ríos Argentina y alrededores
+
 | Campo               | Descripción                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
 | Nombre del Proyecto | Sistema de Búsqueda de Alquiler Permanente                                                            |
@@ -15,22 +19,6 @@
 | 4  | Como propietario, quiero listar todas mis propiedades disponibles         |
 | 5  | Como propietario, quiero ordenar mis propiedades según tiempo publicadas  |
 
-
-# Sistema de Búsqueda de Alquiler Permanente - API REST (MVP)
-
-Proyecto para permitir a propietarios publicar propiedades en alquiler permanente y a clientes buscarlas por ubicación precio y otros filtros Ubicación principal de uso Crespo Entre Ríos Argentina y alrededores
-
-Entidades principales  
-Propietario id nombre dirección teléfono propiedades (1:N)  
-Cliente id nombre teléfono  
-Propiedad id nombre descripción precio dirección stock/disponible categoriaId propietarioId
-
-Historias de usuario cubiertas en este MVP  
-1 Como propietario quiero publicar una propiedad para alquilar rápidamente  
-2 Como cliente quiero buscar una propiedad en Crespo para vivir y trabajar  
-3 Como cliente quiero buscar alquileres dentro de un rango de precio  
-4 Como propietario quiero listar todas mis propiedades disponibles  
-5 Como propietario quiero ordenar mis propiedades según tiempo publicadas
 
 Endpoints de la API versión MVP
 
@@ -145,5 +133,3 @@ Respuesta ejemplo 200 OK
     }  
   ]  
 }
-
-Listo para usar en el repositorio Si después querés agregar autenticación JWT manejo de imágenes favoritos o endpoints para reservas avisame y lo extendemos
