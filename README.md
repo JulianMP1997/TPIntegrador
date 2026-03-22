@@ -1,6 +1,6 @@
 # Sistema de Búsqueda de Alquiler Permanente - API REST (MVP)
 
-Proyecto para permitir a propietarios publicar propiedades en alquiler permanente y a clientes buscarlas por ubicación precio y otros filtros Ubicación principal de uso Crespo Entre Ríos Argentina y alrededores
+Proyecto para permitir a propietarios publicar propiedades en alquiler permanente y a clientes buscarlas por ubicación precio y otros filtros.
 
 | Campo               | Descripción                                                                                           |
 | ------------------- | ----------------------------------------------------------------------------------------------------- |
