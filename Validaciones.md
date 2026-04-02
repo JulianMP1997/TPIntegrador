@@ -2,6 +2,7 @@
 
 #### 1. Función de Sanitización
 
+
 ```php
 function sanitizarPropiedad($data) {
     return [
@@ -23,8 +24,11 @@ function sanitizarPropiedad($data) {
         'categoria_id'        => (int) filter_var($data['categoria_id'] ?? 0, FILTER_SANITIZE_NUMBER_INT)
     ];
 }
+´´´php
+
 2. Función de Validación
-PHPfunction validarPropiedad($data) {
+
+function validarPropiedad($data) {
     $errores = [];
 
     // TITULO
