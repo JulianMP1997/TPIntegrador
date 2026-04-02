@@ -10,9 +10,9 @@ Crea una nueva propiedad en el sistema.
 - **Método:** `POST`
 - **Content-Type:** `application/json`
 
-**Body (JSON):**
 
 ```json
+**Body (JSON):**
 {
   "titulo": "Casa amplia con patio",
   "descripcion": "Hermosa casa familiar con jardín y cochera",
