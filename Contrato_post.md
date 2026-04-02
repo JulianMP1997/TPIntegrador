@@ -12,6 +12,7 @@ Crea una nueva propiedad en el sistema.
 
 
 ```json
+
 **Body (JSON):**
 {
   "titulo": "Casa amplia con patio",
@@ -25,6 +26,7 @@ Crea una nueva propiedad en el sistema.
   "disponible": true,
   "categoria_id": 1
 }
+
 Response Exitosa
 
 Código: 201 Created
@@ -39,6 +41,7 @@ JSON{
     "disponible": true
   }
 }
+
 Response con Errores de Validación
 
 Código: 400 Bad Request
