@@ -1,4 +1,4 @@
-### 🛡️ Sanitización y Validación - Crear Propiedad
+### 🛡️ Sanitización - Crear Propiedad
 
 #### 1. Función de Sanitización
 
