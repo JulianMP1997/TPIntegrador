@@ -1,14 +1,19 @@
-📋 Contrato del Endpoint - Crear Propiedad
-Endpoint:
-POST /api/propiedades
-Descripción:
+### 📋 Contrato del Endpoint - Crear Propiedad
+
+**Endpoint:** `POST /api/propiedades`
+
+**Descripción:**  
 Crea una nueva propiedad en el sistema.
 
-Request
-Método: POST
-Content-Type: application/json
-Body (JSON):
-JSON{
+#### Request
+
+- **Método:** `POST`
+- **Content-Type:** `application/json`
+
+**Body (JSON):**
+
+```json
+{
   "titulo": "Casa amplia con patio",
   "descripcion": "Hermosa casa familiar con jardín y cochera",
   "precio": 150000,
@@ -20,9 +25,10 @@ JSON{
   "disponible": true,
   "categoria_id": 1
 }
-
 Response Exitosa
+
 Código: 201 Created
+
 JSON{
   "ok": true,
   "mensaje": "Propiedad creada correctamente",
@@ -33,9 +39,10 @@ JSON{
     "disponible": true
   }
 }
-
 Response con Errores de Validación
+
 Código: 400 Bad Request
+
 JSON{
   "ok": false,
   "errores": {
