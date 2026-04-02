@@ -24,9 +24,8 @@ function sanitizarPropiedad($data) {
         'categoria_id'        => (int) filter_var($data['categoria_id'] ?? 0, FILTER_SANITIZE_NUMBER_INT)
     ];
 }
-´´´php
 
-2. Función de Validación
+##### 2. Función de Validación
 
 function validarPropiedad($data) {
     $errores = [];
